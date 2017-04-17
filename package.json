@@ -1,1 +1,40 @@
-{     "devDependencies": {         "react-immutable-proptypes": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-react-immutable-proptypes",     "homepage": "https://github.com/npmtest/node-npmtest-react-immutable-proptypes",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-react-immutable-proptypes.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [react-immutable-proptypes (v2.1.0)](https://github.com/HurricaneJames/react-immutable-proptypes) [![npm package](https://img.shields.io/npm/v/npmtest-react-immutable-proptypes.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-immutable-proptypes) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-immutable-proptypes.svg)](https://travis-ci.org/npmtest/node-npmtest-react-immutable-proptypes)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "react-immutable-proptypes": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-react-immutable-proptypes",
+    "keywords": [
+        "coverage",
+        "test",
+        "react-immutable-proptypes"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_react_immutable_proptypes.js",
+    "name": "npmtest-react-immutable-proptypes",
+    "nameAlias": "npmtest_react_immutable_proptypes",
+    "nameOriginal": "npmtest-react-immutable-proptypes",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-react-immutable-proptypes.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
