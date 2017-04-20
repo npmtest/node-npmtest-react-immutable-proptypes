@@ -1,4 +1,7 @@
-# test coverage for  [react-immutable-proptypes (v2.1.0)](https://github.com/HurricaneJames/react-immutable-proptypes)  [![npm package](https://img.shields.io/npm/v/npmtest-react-immutable-proptypes.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-immutable-proptypes) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-immutable-proptypes.svg)](https://travis-ci.org/npmtest/node-npmtest-react-immutable-proptypes)
+# npmtest-react-immutable-proptypes
+
+#### basic test coverage for  [react-immutable-proptypes (v2.1.0)](https://github.com/HurricaneJames/react-immutable-proptypes)  [![npm package](https://img.shields.io/npm/v/npmtest-react-immutable-proptypes.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-immutable-proptypes) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-immutable-proptypes.svg)](https://travis-ci.org/npmtest/node-npmtest-react-immutable-proptypes)
+
 #### PropType validators that work with Immutable.js.
 
 [![NPM](https://nodei.co/npm/react-immutable-proptypes.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-immutable-proptypes)
